@@ -281,7 +281,7 @@ class LocalDatabaseHandler {
 
   //for getting images for the comment of CheckedChecklistItem
   List<String> imagesListFunction(List<Image> imageList, String item) {
-    List<String> imagesList;
+    List<String> imagesList = List<String>();
     if (imagesList != null) {
       imageList.forEach((element) {
         if (element.itemName == item) {

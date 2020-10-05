@@ -13,7 +13,7 @@ class Image {
     key = map['key'];
     id = map['id'];
     checkedListId = map['checkedChecklistId'];
-    itemName = map['checkedChecklistId'];
+    itemName = map['itemName'];
     mainId = map['mainId'];
     url = map['url'];
   }
